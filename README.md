@@ -1,2 +1,1 @@
-# rsschool-cv
-https://requiem007.github.io/rsschool-cv/cv
+https://requiem007.github.io/rsschool-cv/
