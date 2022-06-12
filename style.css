@@ -4,10 +4,11 @@
     padding: 0;
   }
 :root{
-    /* --main-background:
-    --main-text:
-    --accent-text:
-    --accent-background: */
+    --main-background:linear-gradient( rgb(73, 73, 255),rgb(227, 227, 100));
+    --main-color:#000;
+    --accent-color:orange;
+    --white-color: #fff;
+    --second-accent-color: red;
 }
 body{
     max-width: 1024px;
@@ -17,20 +18,23 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
-    background-color: aquamarine;
+    background:var(--main-background);
 }
 
 /* global styles */
-
 .link{
     list-style: none;
+    text-decoration: none;
+    color:var(--white-color)
 }
 .title{
-    color: brown;
+    text-transform: uppercase;
+    color:;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 .sub-title{
-    color:#fff;
+    color:var(--white-color);
     margin-bottom: 5px;
 }
 /* header styles */
@@ -53,17 +57,86 @@ body{
 .navigation{
     display: flex;
 }
+.red-link:hover{
+    color:var(--second-accent-color);
+}
 /* main styles */
 
 /* hero page */
 
 .hero{
     display: flex;
-    padding: 0 10px
+    padding: 0 10px;
+    margin-bottom: 25px;
 }
 .img{
     border-radius: 10px;
 }
+
 .about{
     padding-left: 55px;
+}
+.experience-list{
+    list-style-type:disc;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.company{
+    color:var(--accent-color);
+}
+.description-title{
+    margin-bottom: 10px;
+}
+.second-sub-title{
+    margin-bottom: 10px;
+}
+.work-time{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.skills{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 150px 30px;
+}
+.skills-item{
+    padding-left: 40px;
+}
+.faculty{
+    margin-bottom: 10px;
+}
+.education-time{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.courses-item{
+    color: var(--main-color);
+}
+.languages-item{
+    color: var(--main-color);
+}
+.languages{
+    margin-bottom: 20px;
+}
+.lang{
+    font-weight: 700;
+}
+.projects{
+    margin-bottom: 20px;
+}
+.projects-item{
+    font-weight: 700;
+    color: var(--main-color);
+}
+.projects-item:hover{
+    color: var(--second-accent-color);
+}
+.footer-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    color: var(--main-color);
+    font-size: 24px;
 }

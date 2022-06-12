@@ -11,13 +11,13 @@
 <body>
     <header class="header">
         <div class="navigation">
-            <a href="https://app.rs.school/"><img class="logo" src="./image/logo.svg" alt="logo" width="50"></a>
+            <a href="https://rs.school/js/" target="_blank"><img class="logo" src="./image/logo.svg" alt="logo" width="50"></a>
             <nav>
                 <ul class="nav-links">
-                    <li class="link header-link">Contacts</li>
-                    <li class="link header-link">Education</li>
-                    <li class="link header-link">Skills</li>
-                    <li class="link header-link">Languages</li>
+                    <li class="link header-link"><a class="link red-link" href="#contacts">Contacts</a></li>
+                    <li class="link header-link"><a class="link red-link" href="#education">Education</a></li>
+                    <li class="link header-link"><a class="link red-link" href="#skills">Skills</a></li>
+                    <li class="link header-link"><a class="link red-link" href="#languages">Languages</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,16 +29,116 @@
             </div>
             <div class="about">
                 <h1 class="title">Maksym Rudniev</h1>
-                <h3 class="sub-title">Front-End Developer</h3>
+                <h2 class="sub-title">Front-End Developer</h2>
                 <p>I am 30 years old. 
                     I have an engineering background. 8 years of experience on CNC machines. For the last half a year, I have become very interested in IT, and chose Front-end development for myself. My main goal is to study this specialty in order to become more free in relation to work, so that I can combine my work with travel. I can say that I am a very responsible and disciplined person. I like to work in a team, I like to learn.</p>
     
             </div>
         </section>
+        <section>
+            <div class="experience">
+                <h2 class="sub-title">Experience</h2>
+                <ul>
+                    <li class="link">
+                        <h4 class="description-title">Operator CNC <span class="company">MOTOR-SICH</span></h4>
+                        <p class="work-time">December 2018 - up to now</p>
+                        <ul class="experience-list">
+                            <li>Production of parts for the aviation industry</li>
+                            <li>Product quality control</li>
+                            <li>Equipment setup, tool selection, selection of operating modes</li>
+                            <li>Writing software for machined parts</li>
+                        </ul>
+                    </li>
+                    <li class="link">
+                        <h4 class="description-title">Operator CNC <span class="company">DIE-TECH</span></h4>
+                        <p class="work-time">March 2018 - October 2018</p>
+                        <ul class="experience-list">
+                            <li>Auto parts welding robot maintenance</li>
+                            <li>Product quality control</li>
+                            <li>Commissioning and assembly work on equipment</li>
+                        </ul>
+                    </li>
+                    <li class="link">
+                        <h4 class="description-title"> Operator CNC <span class="company">BIOL</span></h4>
+                        <p class="work-time">December 2016 - February 2018</p>
+                        <ul class="experience-list">
+                            <li>Turning utensils on the mashine</li>
+                            <li>Сonstant quality control of the manufactured product</li>
+                            <li>Setting up the equipment necessary for work</li>
+                            <li>Software adjustment</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="tech-skills">
+                <h2 class="sub-title">Tech-skills</h2>
+                <ul class="skills-item">
+                    <li class="skills-list">HTML5</li>
+                    <li class="skills-list">CSS3</li>
+                    <li class="skills-list">GIT</li>
+                </ul>
+            </div>
+            <div class="soft-skills">
+                <h2 class="sub-title">Soft-skills</h2>
+                <ul class="skills-item">
+                    <li class="skills-list">Scrum</li>
+                    <li class="skills-list">Agile</li>
+                    <li class="skills-list">GTD</li>
+                    <li class="skills-list">Teamwork</li>
+                </ul>
+            </div>
+        </section>
+        <section id="education">
+            <h2 class="sub-title">Education</h2>
+            <h4 class="second-sub-title">Tavria State Agrotechnological University</h4>
+            <p class="faculty">Agrotechnological</p>
+            <p class="education-time">September 2011 - May 2015</p> 
+        </section>
+        <section class="courses">
+            <h2 class="sub-title">Courses</h2>
+            <ul>
+                <li class="link courses-item">
+                    <h4><a class="link courses-item" href="https://goit.ua/marathon/">GoIT marathon</a></h4>
+                    <p class="education-time">April 2022</p>
+                </li>
+                <li class="link courses-item">
+                    <h4>GoIT Demo HTML+CSS</h4>
+                    <p class="education-time">May 2022</p>
+                </li>
+            </ul>
+        </section>
+        <section id="languages" class="languages">
+            <h2 class="sub-title">Languages</h2>
+            <ul>
+                <li class="link languages-item"><span class="lang">Ukrainian: </span>С2</li>
+                <li class="link languages-item"><span class="lang">Russian: </span>С2</li>
+                <li class="link languages-item"><span class="lang">Polish: </span>B1</li>
+                <li class="link languages-item"><span class="lang">English: </span>B1</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2 class="sub-title">Projects</h2>
+            <ul class="link">
+                <li>
+                    <a class="link projects-item" href="https://courageous-cannoli-cc4ef0.netlify.app/" target="_blank">CV from GoIT</a></li>
+                <li>
+                    <a class="link projects-item" href="https://requiem007.github.io/banderogus/" target="_blank">Banderogus</a>
+                </li>
+            </ul>
+        </section>
     </main>
-        
-        
-        
-    </div>
+    <footer id="contacts">
+        <nav class="footer-nav">
+            <ul class="footer-nav-list link">
+                <li><a href="https://rs.school/js/" target="_blank"><img src="./image/logo.svg" alt="logo" height="30"></a></li>
+                <li><a href="https://github.com/requiem007" target="_blank"><img src="./image/icons8-github-30.png" width="30" alt="git"></a></li>
+                <li><a href="tel:+380684269546" target="_blank"><img src="./image/phone.png" alt="calling" width="30"></a></li>
+                <li><a href="mailto:requiem007@ukr.net" target="_blank"><img src="./image/mail.png" alt="mail" width="30"></a></li>
+                <li><p class="year">2022</p></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
